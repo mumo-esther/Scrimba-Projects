@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://unsplash.com/photos/aSERflF331A://source.unsplash.com/1600x900/?passengers);
+    background-size: cover;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.count h1 {
+    font-size: 50px;
+    color: rgb(14, 17, 16);
+}
+
+.count h2 {
+    font-size: 50px;
+    color: red;
+}
+
+button {
+    background-color: rgba(139, 0, 53, 0.678);
+    color: white;
+    padding: 20px;
+    width: 200px;
+    font-size: 25px;
+    border: none;
+}
+
+.save {
+    margin-top: 30px;
+    background-color: green;
+}
